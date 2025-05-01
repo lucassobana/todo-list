@@ -2,12 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    
+    flex-direction: column;
 }
 
 .form {
-    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
 }
 
 .text {
@@ -18,7 +20,7 @@
     background: var(--gray-500);
     color: white;
 
-    outline: none; 
+    outline: none;
     resize: none;
 
     border: 1px solid var(--gray-700);
@@ -28,3 +30,37 @@
 .text:focus {
     border-color: var(--purple-dark);
 }
+
+.button {
+    width: 90px;
+    height: 54px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+
+    background-color: var(--blue-dark);
+    color: var(--gray-100);
+
+    border: 1px solid var(--blue-dark);
+    border-radius: 8px;
+
+    font-weight: bold;
+
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: var(--blue);
+}
+
+
+.taskList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: var(--gray-100);
+    margin-top: 64px;
+}
+
