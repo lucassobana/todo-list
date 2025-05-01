@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.form {
+    position: absolute;
+}
+
+.text {
+    width: 658px;
+    height: 54px;
+    padding: 1rem;
+
+    background: var(--gray-500);
+    color: white;
+
+    outline: none; 
+    resize: none;
+
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+}
+
+.text:focus {
+    border-color: var(--purple-dark);
+}
