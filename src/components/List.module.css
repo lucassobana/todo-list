@@ -1,0 +1,50 @@
+.taskItem {
+    background-color: var(--gray-500);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 8px;
+    width: 736px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox {
+    background: transparent;
+    border: none;
+    color: var(--blue);
+    cursor: pointer;
+    font-size: 24px;
+    margin-right: 16px;
+}
+
+.checkbox:hover {
+    color: var(--blue-dark);
+}
+
+.checkCircle {
+    color: var(--purple-dark);
+}
+
+.checkCircle:hover {
+    color: var(--purple);
+}
+
+.checked {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
+
+.deleteIcon {
+    background: transparent;
+    border: none;
+    color: var(--gray-300);
+    width: 24px;
+    height: 24px;
+}
+
+.deleteIcon:hover {
+    background-color: var(--gray-400);
+    color: var(--danger);
+    border-radius: 4px;
+}
